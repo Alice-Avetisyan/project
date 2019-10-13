@@ -1,0 +1,8 @@
+print("Please input thy string: ")
+instring = input()
+print("The length of the string is: ", len(instring))
+print("And now please input thy string's first sub number: ")
+subinp1 = int(input())
+print("And the second one please: ")
+subinp2 = int(input())
+print(instring[subinp1:subinp2])
